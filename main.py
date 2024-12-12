@@ -1,7 +1,7 @@
 import cv2
 
 # Fonction pour convertir une image en ASCII
-def image_to_ascii(image, cols=200, scale=0.5, char_set=" 01 "):
+def image_to_ascii(image, cols=200, scale=0.5, char_set=" .:-=+*#%@"):
     # Redimensionner l'image pour réduire la taille et la convertir en niveaux de gris
     width, height = image.shape[1], image.shape[0]
     aspect_ratio = height / width
